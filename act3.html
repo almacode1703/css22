@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+     
+      <style>
+
+        @keyframes changecolor {
+            0%{
+                 background-color: yellow;
+            }
+
+            10%{
+                 background-color: orange; 
+            }
+
+            25%{
+                 background-color: orangered;
+            }
+
+            50%{
+
+                background-color: magenta;
+
+            }
+
+            100%{
+
+                background-color: red;
+            }
+        }
+
+      
+        .demo{
+            height: 200px;
+            background-color: green;
+            animation-name: changecolor;
+            animation-duration: 4s;
+        }
+
+      </style>
+
+</head>
+<body>
+       
+    <div class="demo"></div>
+
+</body>
+</html>
